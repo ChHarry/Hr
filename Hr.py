@@ -15,16 +15,16 @@ logo = ("""\033[1;37m    ###    ##    ## #### ##    ##  ######  ❤
 (!) Facebook : HARRY
 (!) Type     : PAID
 \033[1;37m(!)══════════════════════════════════════════""")
-if not os.path.isfile('PAK.so'):
+if not os.path.isfile('Hr.py'):
 	os.system('clear')
 	print(logo)
 	print('[√] installing Files ')
 	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/PAK.so > PAK.so')
-if not os.path.isfile('BD.so'):
+if not os.path.isfile('Hr.py'):
 	os.system('clear')
 	print(logo)
 	print('[√] installing Files ')
-	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/BD.so > BD.so')
+	os.system('curl -L https://raw.githubusercontent.com/ChHarry/Data/main/Hr.py > Hr.py')
 def Run():
 	os.system('clear')
 	print(logo)
@@ -32,7 +32,7 @@ def Run():
 	print('[1] Pak Cloning \n[2] BD Cloning\n[0] Exit')
 	Aking = input('[•] Choose : ')
 	if Aking =='1':
-		os.system('python PAK.py')
+		os.system('python Hr.py')
 	elif Aking =='2':
-		os.system('python BD.py')
+		os.system('python Hr.py')
 Run()
